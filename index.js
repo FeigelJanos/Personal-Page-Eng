@@ -57,6 +57,7 @@ const contactsMailButton = document.getElementById("link-mail");
 const contactsSkypeButton = document.getElementById("link-skype");
 const contactsGitHubButton = document.getElementById("link-github");
 
+/*Changes the language (from the hamburger menu) between English and Hungarian*/
 function languageChange() {
   if (hamburgerOuterText_div.innerHTML == " Menü ") {
     hamburgerOuterText_div.innerHTML = " Menu ";
@@ -129,6 +130,7 @@ function languageChange() {
   }
 }
 
+/* The hamburger menu is invisible*/
 function hamburgerBaseState() {
   hamburgerActive_div.classList.add("invisible");
 
@@ -141,6 +143,7 @@ function hamburgerBaseState() {
   );
 }
 
+/*The hamburger menu is clicked*/
 function hamurgerActivate() {
   hamburgerActive_div.classList.remove("invisible");
 
@@ -156,6 +159,7 @@ function hamurgerActivate() {
   }
   hamburgerActive_div.addEventListener("mouseleave", hamburgerBaseState);
 }
+
 /*Closing the popup if you click on the x*/
 function popupClose() {
   popupWindow_div.classList.remove("visible-pop"); //Popup becomes visible
@@ -192,26 +196,26 @@ function popupActivate() {
   popupCloseButton_div.addEventListener("click", popupClose); //If you click on the x popup closes
 }
 
-/**/
+/*Project icons are inactive*/
 function projectInactive() {
   projectImage1_div.classList.remove("project-img-active");
   projectImage2_div.classList.remove("project-img-active");
   projectImage3_div.classList.remove("project-img-active");
 }
 
-/**/
+/*Project 3 is hovered over*/
 function projectHover3() {
   projectImage3_div.classList.add("project-img-active");
   projectsThirdProject_div.addEventListener("mouseout", projectInactive);
 }
 
-/**/
+/*Project 2 is hovered over*/
 function projectHover2() {
   projectImage2_div.classList.add("project-img-active");
   projectsSecondProject_div.addEventListener("mouseout", projectInactive);
 }
 
-/**/
+/*Project 1 is hovered over*/
 function projectHover1() {
   projectImage1_div.classList.add("project-img-active");
   projectsFirstProject_div.addEventListener("mouseout", projectInactive);
