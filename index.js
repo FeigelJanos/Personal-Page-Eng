@@ -28,7 +28,6 @@ const popupCVDownloadButton_div = document.getElementById("link-cv");
 const popupP2_div = document.getElementById("popup-par2");
 const popupGitHubLink_div = document.getElementById("link-git");
 const popupCodePenLink_div = document.getElementById("link-code");
-const popupYoutubeLink_div = document.getElementById("link-yt");
 
 const projectsH1_div = document.getElementById("project-title1");
 const projectsP1_div = document.getElementById("project-par1");
@@ -77,7 +76,6 @@ function languageChange() {
     popupP1_div.innerHTML = "Grab my CV here:";
     popupCVDownloadButton_div.innerHTML = "Download";
     popupP2_div.innerHTML = "You can find all my projects below:";
-    popupYoutubeLink_div.innerHTML = "Youtube channel";
 
     projectsH1_div.innerHTML = "Projects";
     projectsP1_div.innerHTML =
@@ -111,7 +109,6 @@ function languageChange() {
     popupP1_div.innerHTML = "Töltsd le az önéletrajzom:";
     popupCVDownloadButton_div.innerHTML = "Letöltés";
     popupP2_div.innerHTML = "Itt megtalálod a projekjteim:";
-    popupYoutubeLink_div.innerHTML = "Youtube csatorna";
 
     projectsH1_div.innerHTML = "Projektjeim";
     projectsP1_div.innerHTML =
