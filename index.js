@@ -84,7 +84,7 @@ function languageChange() {
       "I created several projects, from small algorithms to more comprehensive applications. Some of the completed applications can be found below.";
     projectsH2_div.innerHTML = "Recent projects:";
     projectsFirstProjectText_div.innerHTML = "Random quote";
-    projectsSecondProjectText_div.innerHTML = "Rock-paper-scissors";
+    projectsSecondProjectText_div.innerHTML = "Task manager";
     projectsThirdProjectText_div.innerHTML = "Wizard duel";
 
     contactsH1_div.innerHTML = "Contacts";
@@ -117,7 +117,7 @@ function languageChange() {
       "Számos projektet készítettem, amelyek közül néhány alább elérhető.";
     projectsH2_div.innerHTML = "Friss projektjeim:";
     projectsFirstProjectText_div.innerHTML = "Idézet generátor";
-    projectsSecondProjectText_div.innerHTML = "Kő-papír-olló";
+    projectsSecondProjectText_div.innerHTML = "Feladat menedzser";
     projectsThirdProjectText_div.innerHTML = "Varázsló párbaj";
 
     contactsH1_div.innerHTML = "Elérhetőségeim";
